@@ -1,8 +1,7 @@
-import posts from './post'
+import album from './album'
 import author from './author'
-import categories from './category'
 import blockContent from './blockContent'
+import categories from './category'
+import posts from './post'
 
-export const schemaTypes = [posts, author, categories, blockContent]
-
-//https://github.com/codewithkristian/sanity-blog-schema/blob/master/schemas/schema.js
+export const schemaTypes = [posts, author, categories, album, blockContent]

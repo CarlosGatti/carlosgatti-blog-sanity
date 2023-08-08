@@ -37,6 +37,12 @@ export default {
             lists: []
           }
         ]
+      },
+      {
+        name: 'albums',
+        title: 'Albums',
+        type: 'array',
+        of: [{ type: 'reference', to: { type: 'album' } }]
       }
     ],
     preview: {
